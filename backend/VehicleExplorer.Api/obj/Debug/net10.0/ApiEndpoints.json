@@ -1,0 +1,72 @@
+[
+  {
+    "ContainingType": "VehicleExplorer.Api.Endpoints.VehicleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapVehicleEndpoints\u003Eb__1_0",
+    "RelativePath": "api/makes",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VehicleExplorer.Api.Endpoints.VehicleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapVehicleEndpoints\u003Eb__1_2",
+    "RelativePath": "api/makes/{makeId:int}/models",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "makeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehicleType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VehicleExplorer.Api.Endpoints.VehicleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapVehicleEndpoints\u003Eb__1_1",
+    "RelativePath": "api/makes/{makeId:int}/vehicle-types",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "makeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
